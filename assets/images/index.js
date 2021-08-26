@@ -6,5 +6,12 @@ import house from './house.svg'
 import lightning from './lightning.svg'
 import plant from './plant.svg'
 import shirt from './shirt.svg'
+import customPcBuild2021 from './customPcBuild2021.jpg'
+import galaxyFold3 from './galaxyFold3.jpg'
+import peroduaAtiva from './peroduaAtiva.jpg'
+import protonIriz from './protonIriz.jpg'
+import protonS50 from './protonS50.jpg'
+import protonSaga from './protonSaga.png'
+import protonX70 from './protonX70.jpg'
 
-export { briefcase, car, fox, guitar, house, lightning, plant, shirt }
+export { briefcase, car, fox, guitar, house, lightning, plant, shirt, customPcBuild2021, galaxyFold3, protonIriz, peroduaAtiva, protonS50, protonX70, protonSaga }

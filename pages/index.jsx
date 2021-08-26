@@ -8,11 +8,17 @@ import LayoutMain from "../components/LayoutMain";
 import {
   briefcase,
   car,
+  customPcBuild2021,
   fox,
+  galaxyFold3,
   guitar,
   house,
   lightning,
+  peroduaAtiva,
   plant,
+  protonIriz,
+  protonSaga,
+  protonX70,
   shirt,
 } from "../assets/images";
 
@@ -68,6 +74,68 @@ export default function Home() {
       count: "54,924",
     },
   ]);
+  const [recentAds, setRecentAds] = useState([
+    {
+      id: "1",
+      name: "Custom PC Buld 2021",
+      location: {
+        city: "Ampang",
+        state: "Selangor",
+      },
+      price: "2,340.90",
+      image: customPcBuild2021,
+    },
+    {
+      id: "2",
+      name: "Galaxy Fold 3",
+      location: {
+        city: "Gombak",
+        state: "Selangor",
+      },
+      price: "8,899.90",
+      image: galaxyFold3,
+    },
+    {
+      id: "3",
+      name: "Proton Iriz",
+      location: {
+        city: "Jalan Kuching",
+        state: "Kuala Lumpur",
+      },
+      price: "45,090",
+      image: protonIriz,
+    },
+    {
+      id: "4",
+      name: "Proton X70",
+      location: {
+        city: "Jalan Kuching",
+        state: "Kuala Lumpur",
+      },
+      price: "120,380",
+      image: protonX70,
+    },
+    {
+      id: "5",
+      name: "Perodua Ativa",
+      location: {
+        city: "Petaling Jaya",
+        state: "Selangor",
+      },
+      price: "52,000",
+      image: peroduaAtiva,
+    },
+    {
+      id: "6",
+      name: "Proton Saga",
+      location: {
+        city: "Kajang",
+        state: "Selangor",
+      },
+      price: "25,860",
+      image: protonSaga,
+    },
+  ]);
 
   return (
     <>
@@ -75,7 +143,7 @@ export default function Home() {
         <title>EasyAds | Welcome</title>
       </Head>
       <div className={`${isDark && "dark"} md:h-screen md:w-screen`}>
-        <LayoutMain>
+        <LayoutMain recentAds={recentAds}>
           <HomeHeader isDark={isDark} setIsDark={setIsDark} />
           <HomeSearch />
           <HomeItemContainer featuredItem={featuredItem} />

@@ -1,3 +1,7 @@
 .container {
   @apply mt-3 grid grid-cols-4 gap-4;
 }
+.card {
+  @apply rounded-xl bg-green-700 bg-opacity-70 p-4 text-center shadow-lg cursor-pointer  hover:bg-opacity-100;
+  @apply flex items-center justify-center mt-4;
+}

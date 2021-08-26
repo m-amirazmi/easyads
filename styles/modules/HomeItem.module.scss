@@ -1,6 +1,6 @@
 .container {
   @apply col-span-2 md:col-span-1;
   .card {
-    @apply rounded-xl bg-green-700 bg-opacity-70 p-4 text-center shadow-lg cursor-pointer  hover:bg-opacity-100;
+    @apply rounded-xl  bg-opacity-70 p-8 text-center shadow-lg cursor-pointer  hover:bg-opacity-100;
   }
 }

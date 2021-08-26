@@ -3,6 +3,14 @@
 
   .widthContainer {
     @apply flex flex-col justify-center h-full p-3 m-auto;
-    @apply max-w-2xl;
+    @apply max-w-6xl grid grid-cols-5 gap-8 items-center;
+
+    .mainContent {
+      @apply col-span-5 md:col-span-3;
+    }
+    .rightSide {
+      @apply hidden col-span-2 h-full w-full md:flex items-center;
+      @apply text-gray-700;
+    }
   }
 }

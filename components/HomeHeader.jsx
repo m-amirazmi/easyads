@@ -9,7 +9,9 @@ export default function HomeHeader({ isDark, setIsDark }) {
           <button className="">Login</button>
           <i className="fas fa-user-circle fa-lg ml-3"></i>
           <i
-            className={`${!isDark ? "fa-moon" : "fa-sun"} fas fa-lg ml-3 `}
+            className={`${
+              !isDark ? "fa-moon" : "fa-sun"
+            } fas fa-lg ml-3 cursor-pointer`}
             onClick={() => setIsDark(!isDark)}
           ></i>
         </div>
