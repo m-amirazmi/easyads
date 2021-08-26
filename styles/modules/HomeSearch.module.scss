@@ -1,9 +1,14 @@
-.input {
+.inputContainer {
   position: relative;
-}
 
-.input i {
-  position: absolute;
-  left: 15px;
-  top: 4px;
+  i {
+    position: absolute;
+    left: 15px;
+    top: 4px;
+  }
+  .input {
+    @apply rounded-xl px-3 py-2 pl-10 w-full;
+    @apply placeholder-gray-100  bg-opacity-50;
+    @apply focus:outline-none focus:border-green-300;
+  }
 }

@@ -1,0 +1,11 @@
+.container {
+  .titleContainer {
+    @apply flex items-center mb-3;
+    h1 {
+      @apply text-4xl;
+    }
+    .buttonContainer {
+      @apply ml-auto flex items-center;
+    }
+  }
+}

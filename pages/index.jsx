@@ -74,7 +74,7 @@ export default function Home() {
       <Head>
         <title>EasyAds | Welcome</title>
       </Head>
-      <div className={`${isDark && "dark"} h-screen w-screen`}>
+      <div className={`${isDark && "dark"} md:h-screen md:w-screen`}>
         <LayoutMain>
           <HomeHeader isDark={isDark} setIsDark={setIsDark} />
           <HomeSearch />

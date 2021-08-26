@@ -1,0 +1,8 @@
+.container {
+  @apply text-white h-full w-full bg-green-500 py-5;
+
+  .widthContainer {
+    @apply flex flex-col justify-center h-full p-3 m-auto;
+    @apply max-w-2xl;
+  }
+}
