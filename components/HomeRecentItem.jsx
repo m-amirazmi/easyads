@@ -4,7 +4,7 @@ import { protonIriz } from "../assets/images";
 export default function HomeRecentItem({ item }) {
   const { image, name, location, price, timestampAdded } = item;
   return (
-    <div className="mb-4 h-24 grid grid-cols-9 items-center gap-2 bg-green-700 bg-opacity-10 rounded-xl cursor-pointer border border-white hover:border-green-500 hover:bg-opacity-20">
+    <div className="mb-4 h-24 grid grid-cols-9 items-center gap-2 bg-green-700 bg-opacity-10 rounded-xl cursor-pointer border border-white hover:border-green-500 hover:bg-opacity-20 dark:bg-gray-500 dark:bg-opacity-50 dark:hover:bg-opacity-100 dark:border-gray-700">
       <div className="col-span-3">
         <div className="">
           <Image
